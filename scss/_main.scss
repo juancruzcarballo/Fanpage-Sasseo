@@ -1,13 +1,13 @@
 body{
 	font-family: 'Montserrat', sans-serif;
 }
-/*.fuente-normal{
+.fuente-normal{
 	font-weight: map-get($fuentes, regular);
-}*/
+}
 
-@each $c in blue, red, green, black{
-	.color-#{$c}{
-		color: $c;
+@each $fo, $nt in $fuentes{
+	.font-#{$fo}{
+		font-weight: $nt;
 	}
 }
 
@@ -23,10 +23,6 @@ body{
 	}
 }
 @include color-base(false);
-
-
-
-
 
 
 

@@ -3,23 +3,36 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/*.fuente-normal{
-	font-weight: map-get($fuentes, regular);
-}*/
-.color-blue {
-  color: blue;
+.fuente-normal {
+  font-weight: 400;
 }
 
-.color-red {
-  color: red;
+.font-light {
+  font-weight: 300;
 }
 
-.color-green {
-  color: green;
+.font-regular {
+  font-weight: 400;
 }
 
-.color-black {
-  color: black;
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semi-bold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-extra-bold {
+  font-weight: 800;
+}
+
+.font-black {
+  font-weight: 900;
 }
 
 .color-mode {
@@ -141,10 +154,13 @@ body {
 }
 
 h1 {
-  color: #3d393e;
-  font-size: 40 px;
   font-weight: 600;
   text-align: center;
+}
+
+h1 {
+  color: #3d393e;
+  font-size: 40 px;
 }
 
 .halcon {
