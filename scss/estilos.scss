@@ -30,7 +30,7 @@ body {
 		animation-duration: 5s;
 	}
 }
-@keyframes "zoom" {
+@keyframes zoom	 {
 	0% {
 		transform: scale(1);
 	}
@@ -43,6 +43,7 @@ body {
 		transform: scale(1.1);
 	}
 }
+
 #containerGrid {
 	display: grid;
 	min-height: 100vh;
@@ -86,6 +87,7 @@ body {
 	border-radius: 10px;
 	background: linear-gradient(to left, grey, #141114);
 }
+
 #header {
 	width: 100%;
 	display: flex;
@@ -136,16 +138,20 @@ h1 {
 	padding: 130px 0 100px;
 	display: flex;
 	flex-wrap: wrap;
+	width: 100%;
 	justify-content: start;
 }
 .single_event {
 	margin-bottom: 30px;
+	display: flex;
+	flex-wrap: wrap;
+
 	.event_details {
 		background: rgba(0, 35, 71, 0.5);
 		top: 0px;
 		right: 0px;
 		width: 275px;
-		padding: 30px 25px;
+		padding: 30px 30px;
 		color: #ffffff;
 		.date {
 			color: #ffffff;
@@ -197,6 +203,7 @@ h1 {
 		}
 	}
 }
+
 @media (max-width: 991px) {
 	.events_area {
 		padding: 70px 0;
