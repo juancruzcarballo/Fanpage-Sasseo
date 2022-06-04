@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<meta charset="utf-8">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!--CSS- -->
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body style="background: url('Assets/bandera.png') no-repeat; background-size: 100%; background-size: cover;">
+		<div id="containerGrid">
+		<div id="header">
+	<nav class="Menu navbar navbar-expand-lg navbar-dark">
+
+		<div class="container">
+			  
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+			
+			<ul class="navbar-nav">
+			  <li class="nav-item">
+			  	<li class="nav-item">
+				<a class="nav-link active" href="index.html">Home</a>
+			  </li>
+				<a class="nav-link active" aria-current="page" href="photosandvideos.html">Photos and Videos</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link active" href="Biography.html">Biography</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link active" href="tablas.html">Interviews</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link active" href="https://en.wikipedia.org/wiki/Pablo_Carballo" target="_blank">Wikipedia</a>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+	</div>
+	<a href="#footer">Ir abajo</a>
+
+	<h1>Contact me</h1>
+
+	<form action="formularios.html" method="GET" enctype="multipart/form-data">
+		<input type="text" name="nombre" placeholder="Nombre">
+		<input type="text" name="apellido" placeholder="Apellido">	
+
+		<div> Sexo </div>
+
+		<div>
+			<label>Femenino</label>
+			<input type="checkbox" name="curso_a" value="web">
+			<label>Masculino</label>
+			<input type="checkbox" name="curso_b" value="seo">
+			<label>Indistinto</label>
+			<input type="checkbox" name="curso_c" value="sem">
+		</div>
+	
+		<p>País</p>
+
+		<select>
+
+			<option value="ar">Argentina</option>
+			<option value="cl">Chile</option>
+
+		</select>
+
+        <div>Comentario</div>
+
+		<textarea></textarea>
+
+		<div>
+			<input type="submit" name="enviar" value="ENVIAR">
+			<input type="reset" name="limpiar" value="LIMPIAR">	
+	    </div>
+
+	</form>
+
+	<section class="mapa text-left">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.529603277732!2d-64.2248345!3d-31.3719575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943299240a957c51%3A0xede5da5fdc08b174!2sJuan%20Carlos%20Castagnino%202526%2C%20X5009%20JEJ%2C%20C%C3%B3rdoba!5e0!3m2!1sen!2sar!4v1654040830336!5m2!1sen!2sar" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</section>
+
+	<ul id="juan">
+		<li><a href="formulario.html">Arriba</a></li>
+	</ul>
+	
+	<div id="footer">	
+		<p>Author: Juan Cruz Carballo</p>
+		<p>Tel.:+54 9 351 2699358</p>
+		<p>Address: Juan Carlos Castagnino 2526, Córdoba Capital, Argentina</p>
+		<p><a href="mailto:juancruzcarballo37@gmail.com">juancruzcarballo37@gmail.com</a></p>
+		<p><a href="https://www.facebook.com/capitanpablo.carballo" target="_blank">Facebook</a></p>
+		<p>Copyright &copy;2022</p>
+	</div>
+   </div>
+</body>
+</html>	

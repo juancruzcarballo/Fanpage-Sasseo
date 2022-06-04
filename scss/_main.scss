@@ -1,0 +1,40 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+/*.fuente-normal{
+	font-weight: map-get($fuentes, regular);
+}*/
+
+@each $c in blue, red, green, black{
+	.color-#{$c}{
+		color: $c;
+	}
+}
+
+@mixin color-base($color){
+	@if($color){
+		.color-mode{
+			background-color: black;
+		}
+	}@else{
+		.color-mode{
+			background-color: white;
+		}
+	}
+}
+@include color-base(false);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

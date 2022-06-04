@@ -1,0 +1,42 @@
+.btn{
+	font-size: 2rem;
+	padding: .5em;
+	&__success{
+		color: orange;
+	}
+}
+
+.btn--success{
+	@extend .btn;
+	color: orange;
+}
+
+%btn{
+	font-size: 1rem;
+	border-radius: .5em;
+	background-color: blue;
+	color: white;
+}
+
+.btn-normal{
+	@extend %btn;
+	padding: .3em .6em;
+}
+.btn-big{
+	@extend %btn;
+	padding: .5em .75em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
